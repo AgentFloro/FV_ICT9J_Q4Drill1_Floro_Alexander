@@ -13,13 +13,21 @@
         border: none;          
         cursor: pointer;       
     }
+    body{
+        background-color: rgb(78, 131, 255);;
+    }
+    .container{
+        background-color: rgb(78, 131, 255);
+        height: auto;
+        width: auto;
+    }
 </style>
 </head>
 <body>
+    
     <div class="container">
         <div class="row">
-    <h1>Javascript Conditional statements</h1>
-    <p> hello world </p>
+    <h1>Blue electricity finder :)</h1>
     <!--comment cooment cement-->
     <input id=Age>
     <button class="btn btn-info" onclick="checkage()"> Checkage </button>
@@ -35,7 +43,7 @@
             }
 
             else if(E==0){
-                alert("wow baby");
+                alert("No electricity?");
             }
 
             else if(E <100){
@@ -50,6 +58,18 @@
 
             else if(E<=300){
                 alert("normal electricity");
+                
+
+            }
+
+            else if(E<=500){
+                alert("high electricity");
+                
+
+            }
+
+            else if(E>=500){
+                alert("I tink thats too much electricity ur using..");
                 
 
             }
